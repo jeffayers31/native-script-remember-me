@@ -2,7 +2,7 @@
 import { Page, Frame } from '@nativescript/core';
 import { LoginViewModel } from './view-models/login-view-model';
 // Import the LogService class
-import LogService from './log-service.js';
+import LogService from './services/log-service.js';
 
 // Instantiate the LogService class
 const logService = new LogService();
