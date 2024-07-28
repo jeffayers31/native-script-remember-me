@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "~/*": [
+                "app/*"
+            ],
+            "@/*": [
+                "app/*"
+            ]
+        }
+    },
+    "include": [
+        "app/**/*",
+        "../../oldstuff/main-page.js"
+    ]
+}

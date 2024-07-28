@@ -1,0 +1,10 @@
+<!-- app/pages/main-page.xml -->
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page">
+    <ActionBar title="Main" class="action-bar">
+    </ActionBar>
+    <StackLayout class="p-20">
+        <Button text="Start" tap="{{ start }}" class="btn btn-primary"/>
+        <Image src="{{ currentImage }}" stretch="aspectFit" height="300"/>
+        <Button text="Stop" tap="{{ stop }}" class="btn btn-primary"/>
+    </StackLayout>
+</Page>

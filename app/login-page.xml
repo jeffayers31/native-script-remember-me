@@ -1,0 +1,11 @@
+<!-- app/pages/login-page.xml -->
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page">
+    <ActionBar title="Login" class="action-bar">
+    </ActionBar>
+    <StackLayout class="p-20">
+        <TextField hint="Email" text="{{ email }}" keyboardType="email" autocorrect="false" autocapitalizationType="none" class="input input-border"/>
+        <TextField hint="Password" text="{{ password }}" secure="true" class="input input-border"/>
+        <Button text="Login" tap="{{ login }}" class="btn btn-primary"/>
+        <Button text="Sign Up" tap="{{ signup }}" class="btn btn-outline"/>
+    </StackLayout>
+</Page>
